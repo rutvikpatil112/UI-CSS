@@ -463,7 +463,9 @@ footer p {
 /* Responsive */
 @media (max-width: 767px) {
   nav {
-    flex-direction: column;
+    flex-direction: row; 
+    justify-content: center; 
+    flex-wrap: wrap; 
     gap: 10px;
   }
 
@@ -484,6 +486,7 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .media-grid, .product-categories {
